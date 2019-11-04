@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  margin: 25px;
+}
+.link:hover {
+  color: blueviolet;
+}
+.dropdown {
+  display: none;
+  list-style-type: none;
+  color: black;
+  position: absolute !important;
+}
+.dropdown li:hover {
+  color: red;
+}
+
+.dropdown-link:hover .dropdown {
+  display: flex;
+  flex-direction: column;
+}
